@@ -202,13 +202,32 @@ background: linear-gradient(
   margin-left: 0%;
 }
 
-/* SECTION */
+/* HEADER */
 
 header {
+  margin: 0 0 30px;
+}
+/* NAVBAR */
+
+#navbar {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
 }
+
+#navbar nav {
+  border-left: 1px solid #ccc;
+}
+
+#navbar nav a {
+  display: inline-block;
+  width: 16.6666667%
+}
+/* SECTION */
 
 section {
   margin-bottom: 20px;
