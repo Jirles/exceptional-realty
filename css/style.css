@@ -34,7 +34,7 @@ figcaption{
   box-shadow: 0 3px 10px #333;
 }
 
-.shadow-right {
+.border-right {
   border-right: 1px dotted #ccc;
   padding-right: 30px;
 }
@@ -64,6 +64,13 @@ figcaption{
 /* MEDIA */
 img, video, audio {
   max-width: 100%;
+}
+
+/* BACKGROUND */
+
+.white-wood {
+  background: url(../images/white-wood.jpg) no-repeat center top;
+  background-size: cover;
 }
 
 /* LAYOUT */
@@ -104,6 +111,7 @@ img, video, audio {
 
 [class*="col-"] {
   margin-left: 2%;
+  max-height: 100%;
 }
 
 .first {
@@ -113,17 +121,15 @@ img, video, audio {
 /* SECTION */
 
 header {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: white;
-  z-index: 1;
 }
 
 section {
   margin-bottom: 20px;
   padding: 20px;
+  background-color: white;
 }
 
 /* SOCIAL */
