@@ -83,7 +83,7 @@ footer {
 }
 
 /* MEDIA */
-img, video, audio {
+img, video, audio, iframe{
   max-width: 100%;
 }
 
