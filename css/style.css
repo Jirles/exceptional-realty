@@ -39,20 +39,33 @@ figcaption{
   padding-right: 30px;
 }
 
+/* LOGO */
 #logo {
-  padding: 84px 0 0;
+  padding: 74px 0 0;
 }
 
 #logo h1 {
-  font-family: "Clicker Script", cursive;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
   margin: 0;
+  background: url(../images/exceptional-logo.png) no-repeat;
+  background-size: 100% 100%;
 }
 
 #logo h2 {
-  font-family: "Elsie Swash Caps", cursive;
+  display: inline-block;
+  font: 2.5em "Clicker Script", cursive;
   margin: 0;
-
+  position: relative;
+  top: -9px;
+  left: 5px;
+  color: #303;
 }
+/* DETAILS */
 
 #details {
   border: 1px solid white;
@@ -404,17 +417,19 @@ section {
 
 #social {
   position: fixed;
-  top: 200px;
+  top: 163px;
   right: 20px;
   width: 40px;
-  z-index: 1;
+  z-index: 2;
 }
 
 #social a {
   display: block;
   width: 40px;
   height: 40px;
-  background-color: yellow;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 a.fbook, a.twit, a.gplus {
