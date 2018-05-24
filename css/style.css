@@ -263,7 +263,15 @@ background: linear-gradient(
 }
 
 .col-3 {
-
+  -moz-column-rule: 1px dotted #ccc;
+  -webkit-column-rule: 1px dotted #ccc;
+  column-rule: 1px dotted #ccc;
+  -moz-column-gap: 1.5em;
+  -webkit-column-gap: 1.5em;
+  column-gap: 1.5em;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
 }
 
 [class*="col-"] {
@@ -404,3 +412,19 @@ section {
   height: 40px;
   background-color: yellow;
 }
+
+a.fbook, a.twit, a.gplus {
+  background: url(../images/social-icons.png) no-repeat;
+}
+
+a.fbook { background-position: 0 0; }
+a.fbook:hover { background-position: -40px 0; }
+a.fbook:active { background-position: -80px 0; }
+
+a.twit { background-position: 0 -40px; }
+a.twit:hover { background-position: -40px -40px; }
+a.twit:active { background-position: -80px -40px; }
+
+a.gplus { background-position: 0 -80px; }
+a.gplus:hover { background-position: -40px -80px; }
+a.gplus:active { background-position: -80px -80px; }
