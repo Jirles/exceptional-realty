@@ -388,6 +388,10 @@ background: linear-gradient(
   rgba(0, 0, 0, 1) 100%
 ); /* W3C */
 }
+
+#navbar nav a.menu-icon {
+  display: none;
+}
 /* SECTION */
 
 section {
