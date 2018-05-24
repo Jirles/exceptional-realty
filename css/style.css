@@ -9,8 +9,8 @@
 
 */
 
-p {
-  font-size: 1em;
+p, address {
+  font-size: 1em; /* 16px, ?pt, 100%, 1em */
   line-height: 1.5em;
 }
 
@@ -275,6 +275,7 @@ background: linear-gradient(
   line-height: 0;
 }
 
+/*
 .col-3 {
   -moz-column-rule: 1px dotted #ccc;
   -webkit-column-rule: 1px dotted #ccc;
@@ -286,6 +287,7 @@ background: linear-gradient(
   -webkit-column-count: 3;
   column-count: 3;
 }
+*/
 
 [class*="col-"] {
   margin-left: 2%;
